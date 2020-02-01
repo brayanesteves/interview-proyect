@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body onload="Read()">
+    <div class="container">
+        <img class="logo" src='/img/CTSWLogo.png' alt="CodingTheSmartWay Logo">
+
+        <h2>Todo App</h2>
+        <input type="text" id="task" class="todo-input" placeholder="Insert todo item ...">
+
+
+        
+            <div id ="todo-item">
+                
+            </div>
+            <div class="inner-container">
+                <div><label><input class="inner-container-input" type="checkbox">Check All</label></div>
+                <div><i id="count"></i> Item left</div>
+            </div>
+            <br>
+            <div class="inner-container">
+                <div>
+                    <button>All</button>
+                    <button>Active</button>
+                    <button>Completed</button>
+                </div>
+
+                <button>Clear Completed</button>
+
+            </div>
+        
+        <script src="assets/js/main.js"></script>
+
+</body onload="Read()">
+
+</html>
