@@ -21,5 +21,6 @@ if __name__ == '__main__':
         op = int(input("Input Option: "))
 
         if (op == 1):
+	    # GENERATE
             _password = generatePassword(16)
             print(_password)
